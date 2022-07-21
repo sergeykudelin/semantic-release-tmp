@@ -2,8 +2,8 @@ name: Node.js CI
 on:
   push:
     branches: [ master, develop ]
-  # pull_request:
-  #   branches: [ master, alpha ]
+  pull_request:
+    branches: [ master, alpha ]
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
