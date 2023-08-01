@@ -2,6 +2,7 @@ branches:
   - master
   - name: develop
     prerelease: true
+tag-format: 'adapter-v${version}'
 debug: true
 ci: true
 dryRun: false
